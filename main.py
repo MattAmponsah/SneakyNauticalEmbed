@@ -14,7 +14,7 @@ elif gp1 == 'D': gp1 = float(1.0)
 elif gp1 == 'F': gp1 = float(0.0)
 else: print(f"Grade point for course 1 is: {0.0}")
 
-fgp1 = ((gp1 * credit1) - credit1)
+fgp1 = ((gp1 * credit1) / credit1)
 
 print(f"Grade point for course 1 is: {fgp1}")
 
